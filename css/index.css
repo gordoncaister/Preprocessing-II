@@ -1,3 +1,11 @@
+@keyframes some-animation {
+  from {
+    width: 254px;
+  }
+  to {
+    width: 100px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -326,13 +334,5 @@ img {
   color: #030303;
 }
 .home .content-pick .destination .btn:hover {
-  animation: boxshadow 4s 0 3;
-}
-@keyframes boxshadow {
-  from {
-    box-shadow: 3px 5px black;
-  }
-  to {
-    box-shadow: 3px 5px red;
-  }
+  animation: some-animation 4s;
 }

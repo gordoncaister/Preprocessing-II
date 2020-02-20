@@ -17,3 +17,10 @@
     from {box-shadow: 3px 5px black}
     to {box-shadow: 3px 5px red}
 }
+
+.mixi-frames (@arg) {
+    from {width: 254px;}
+    to {width: @arg;}
+  }
+  
+@keyframes some-animation {.mixi-frames(100px);}
