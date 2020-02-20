@@ -1,7 +1,14 @@
 // Mixins in here
 
-
-
 .centeredhorizontal(){
     margin: 0 auto;
+}
+
+.button-preset(@btnborderradius){
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    border-radius: @btnborderradius;
+    background-color: @button-bg;
+    color: @main-bg;
 }

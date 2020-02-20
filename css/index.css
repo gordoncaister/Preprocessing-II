@@ -155,7 +155,8 @@ h4 {
   padding-bottom: 10px;
 }
 p,
-a {
+a,
+.btn {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
@@ -171,7 +172,7 @@ img {
 }
 #navdiv {
   width: 100%;
-  border-bottom: 2px dashed silver;
+  border-bottom: 2px dashed #C0C0C0;
 }
 #navdiv #navbar {
   display: flex;
@@ -187,7 +188,7 @@ img {
 }
 #navdiv #navbar nav a {
   text-decoration: none;
-  color: black;
+  color: #212529;
 }
 .footer {
   width: 100%;
@@ -253,4 +254,12 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
 }
