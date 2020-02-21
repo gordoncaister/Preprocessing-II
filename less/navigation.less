@@ -1,1 +1,29 @@
 // Navigation Styles here
+#navdiv{
+    width: 100%;
+    border-bottom: 2px dashed @navigation-border;
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        align-items: center;
+        @media @mobile {
+            padding-top: 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 45%;
+            @media @mobile {
+                width: 90%;
+            }
+            a {
+                text-decoration: none;
+                color: @shark;
+                
+            }
+        }
+        
+    }
+}   
